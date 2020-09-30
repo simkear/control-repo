@@ -9,8 +9,8 @@ forge 'https://forge.puppet.com'
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #
-mod 'tomcat',
+mod "tomcat",
   git:    'https://github.com/simkear/puppet-module-tomcat.git',
 
-mod 'java',
+mod "java",
   git:    'https://github.com/simkear/puppet-module-java.git',
