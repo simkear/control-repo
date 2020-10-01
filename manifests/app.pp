@@ -1,5 +1,5 @@
 node 'node1'{
-  include base
+  #include base
   class {'::tomcat':
     xms           => '64m',
     xmx           => '128m',
@@ -15,9 +15,9 @@ node 'node1'{
 
 
 
-node 'default'{
-  notify {"*****DEFAULT******":
-    message => 'Check point_1'}
+#node 'default'{
+  #notify {"*****DEFAULT******":
+    #message => 'Check point_1'}
 }
 node 'node2' {
   class {'::tomcat':
@@ -27,5 +27,5 @@ node 'node2' {
     group         => 'tomcat',
     service_state => 'running'
    }
-  include base
+  #include base
 }
