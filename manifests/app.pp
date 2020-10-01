@@ -1,5 +1,4 @@
 node 'node1'{
-  #include base
   class {'::tomcat':
     xms           => '64m',
     xmx           => '128m',
