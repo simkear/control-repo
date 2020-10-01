@@ -8,7 +8,7 @@ mod 'puppetlabs/haproxy'
 
 # Modules from Git
 mod 'tomcat'
-  :git    =>    'https://github.com/simkear/puppet-module-tomcat.git'
+  git: 'https://github.com/simkear/puppet-module-tomcat.git'
 
 
 #mod "java",
