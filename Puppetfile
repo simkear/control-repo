@@ -11,5 +11,5 @@ mod 'tomcat',
   git: 'https://github.com/simkear/puppet-module-tomcat.git'
 
 
-#mod "java",
- # git:    'https://github.com/simkear/puppet-module-java.git',
+mod "java",
+  git:    'https://github.com/simkear/puppet-module-java.git'
