@@ -17,7 +17,7 @@ node 'node1'{
 #node 'default'{
   #notify {"*****DEFAULT******":
     #message => 'Check point_1'}
-}
+#}
 node 'node2' {
   class {'::tomcat':
     xms           => '64m',
