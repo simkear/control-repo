@@ -7,7 +7,7 @@ mod 'puppetlabs/ntp',
 #mod 'puppetlabs/concat',  '6.0.0'
 
 # Modules from Git
-mod "tomcat",
+mod 'tomcat',
   :git    =>    'https://github.com/simkear/puppet-module-tomcat.git',
 
 
