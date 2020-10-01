@@ -3,7 +3,7 @@ node 'node1'{
   class {'::tomcat':
     xms           => '64m',
     xmx           => '128m',
-    user          => 'tomcat',
+    user          => 'root',
     group         => 'tomcat',
     service_state => 'running'
    }
@@ -22,7 +22,7 @@ node 'default'{
 node 'node2' {
   class {'::tomcat':
     xms           => '64m',
-    xmx           => '128m',
+    xmx           => '256m',
     user          => 'tomcat',
     group         => 'tomcat',
     service_state => 'running'
