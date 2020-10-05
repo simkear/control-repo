@@ -8,7 +8,7 @@ node 'node3' {
    }
    tomcat::deploy {'sysfoo':
      deploy_url     => 'https://github.com/simkear/sysfoo/raw/master/sysfoodev.war',
-     #checksum_value => '51f44e3d222b4dbb65ceb5647c9b8184',
+     checksum_value => 'be22100e628c8015f3fe4bdf4cf131e1',
     }
 }
 
