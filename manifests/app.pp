@@ -7,7 +7,7 @@ node 'node2'{
     service_state => 'running'
    }
    tomcat::deploy {'sysfoo':
-     deploy_url     => 'https://github.com/simkear/sysfoo/raw/master/sysfoo.war',
+     deploy_url     => 'https://github.com/simkear/sysfoo/raw/test/sysfoo.war',
      checksum_value => 'd82fa6790d85e545ddc869dbbef8bc57',
     }
  }
