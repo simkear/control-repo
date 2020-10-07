@@ -2,7 +2,7 @@ node 'node2'{
   class {'::tomcat':
     xms           => '64m',
     xmx           => '128m',
-    user          => 'root',
+    user          => 'tomcat',
     group         => 'tomcat',
     service_state => 'running'
    }
